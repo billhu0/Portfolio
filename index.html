@@ -26,6 +26,9 @@
 
   <!-- Custom CSS -->
   <link href="css/combined.css" rel="stylesheet">
+
+  <!-- Waline CSS -->
+  <link href="https://unpkg.com/@waline/client@v2/dist/waline.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -579,6 +582,8 @@ Identification and Initialization Analysis</h5></a> (contributor, &sect;2)
                   <!-- <h5 class="section-subheading lead text-faded">...or use the following form</h5> -->
               </div>
           </div>
+          <div id="waline"></div>
+  
           <!-- <div class="row mt-5">
               <div class="col-lg-12">
                   <form name="sentMessage" id="contactForm" novalidate>
@@ -1267,6 +1272,17 @@ int ackermann(int m, int n) {
 
   <!-- Custom scripts -->
   <script src="js/agency.js"></script>
+
+  <!-- Waline -->
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+
+    init({
+      el: '#waline',
+      serverURL: 'https://waline-base.vercel.app',
+      lang: 'en',
+    });
+  </script>
 
 </body>
 
