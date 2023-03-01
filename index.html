@@ -96,6 +96,8 @@
       <h1 class="mb-1">Bill Hu</h1>
       <h3 class="mb-5">
           <em>Undergraduate Student @ ShanghaiTech University</em>
+          <br>
+          <em>Exchange Student @ University of Wisconsin-Madison</em>
       </h3>
       <a class="btn btn-xl btn-light js-scroll-trigger" href="#about">Enter Portfolio</a>
     </div>
@@ -162,15 +164,19 @@
           </p>
           
           <p class="lead" style="font-size: 14pt">
-            My interests include Artificial Intelligence, Machine Learning, Computer Vision.
+            My scientific interests include Artificial Intelligence, Machine Learning, Computer Vision.
           </p>
+
+          <!-- <p class="lead" style="font-size: 14pt">
+            My personal interests include aviation, digital products, photography...
+          </p> -->
           
-          <!-- <p class="lead" style="*font-size: 15pt; margin-bottom:0px"><b>Massachusetts Institute of Technology (MIT)</b></p>
+          <p class="lead" style="*font-size: 15pt; margin-bottom:0px"><b>Honors</b></p>
           <ul style="padding-left:30px">
-            <li class="lead" style="font-size: 14pt"><b>Master of Engineering in Computer Science/Artificial Intelligence</b></li>
-            <li class="lead" style="font-size: 14pt"><b>Bachelor of Science in Computer Science and Engineering</b></li>
-            <li class="lead" style="font-size: 14pt">Certificate of Advanced Undergraduate Research in Artificial Intelligence and Machine Learning</li>
-          </ul> -->
+            <li class="lead" style="font-size: 14pt">
+              Scholarship (<b>Top 3-7%</b> of SIST students), Dec. 2022
+            </li>
+          </ul>
           
           <div id="social2" class="mt-4">
             <ul class="list-inline social-buttons text-center">
@@ -322,7 +328,7 @@
             <b>Python</b>
           </h4>
           <p class="text-faded mb-0">
-            I started to learn programming in Python since childhood, and have been using it extensively since then, especially in the projects I worked on during my university years. For example, TODO:
+            I started to learn programming in Python since childhood, and have been using it extensively since then, especially in the projects I worked on during my university years. For example, the Artificial Intelligence final project <a data-toggle="modal" href="#portfolioModal3">AI aircraft warfare</a>.
           </p>
         </div>
 
@@ -335,7 +341,7 @@
           </h4>
           <p class="text-faded mb-0">
             I have learned and used C, C++ a lot in my university years. 
-            For example, I used C to program on Arduino, and used C++ to re-implement algorithms and data structures, and to write programs such as <a data-toggle="modal" href="#portfolioModal5">Computer Graphics</a>.
+            For example, I used C to program on Arduino, and used C++ to re-implement algorithms and data structures, and to write programs such as <a data-toggle="modal" href="#portfolioModal4">a NURBS surfaces ray tracer</a>.
           </p>
         </div>
         
@@ -358,12 +364,9 @@ Localization and Autonomous Navigation</a> and the model in <a href="/doc/Utilit
             <b>Java / Kotlin</b>
           </h4>
           <p class="text-faded mb-0">
-            In my spare time, I have used Java and Kotlin in Android Development.
+            In my spare time, I have used Java and Kotlin a lot in Android Development.
           </p>
         </div>
-        
-        
-        
         
         <div class="col-lg-4 col-md-6 mb-5">
           <span class="service-icon rounded-circle mx-auto mb-3 text-secondary">
@@ -373,7 +376,7 @@ Localization and Autonomous Navigation</a> and the model in <a href="/doc/Utilit
             <b>HTML, CSS, JS</b>
           </h4>
           <p class="text-faded mb-0">
-            Although I didn't learn it from my university courses, I have self-learned a lot of frontend knowledge in my spare time, and I have experience in building web pages. In addition I know how to use frameworks such as BootStrap, jQuery and Vue3. 
+            Although I didn't learn it from my university courses, I have self-learned a lot of frontend knowledge in my spare time, and I have experience in building web pages. In addition I know how to use frameworks such as BootStrap, jQuery and Vue3. For example, here is my <a href="https://www.billhu.us" target="blank">blog</a>.
           </p>
         </div>
 
@@ -385,8 +388,7 @@ Localization and Autonomous Navigation</a> and the model in <a href="/doc/Utilit
             <b>Node.js</b>
           </h4>
           <p class="text-faded mb-0">
-            TODO:
-            <!-- I have extensive experience in Node.js and many of its modules, including Express, Request, Grunt, Mocha, Cheerio, Bcrypt, and Oauth2-server, and have created many of my own, including <a href="https://www.npmjs.com/package/cda-schematron" target="blank">cda-schematron</a>. -->
+            As a JavaScript/TypeScript lover, I have been using Node.js for many things, such as rendering a website, building a webserver, and building desktop apps with Electron. 
           </p>
         </div>
 
@@ -401,10 +403,6 @@ Localization and Autonomous Navigation</a> and the model in <a href="/doc/Utilit
             I've been using Git as a version control tool in almost all of my projects, no matter individual or team-based. I'm familiar with Git workflows, such as GitHub Flow.
           </p>
         </div>
-
-        
-
-        
 
         <!-- <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3 text-secondary">
@@ -431,7 +429,7 @@ Localization and Autonomous Navigation</a> and the model in <a href="/doc/Utilit
   </section>
 
 
-  <!-- Portfolio -->
+  <!-- Portfolio / Projects -->
   <section class="content-section" id="projects">
     <div class="container">
       <div class="content-section-heading text-center">
@@ -445,7 +443,7 @@ Localization and Autonomous Navigation</a> and the model in <a href="/doc/Utilit
         </p>
       </div>
       
-      <div class="row no-gutters">
+      <div class="row no-gutters" style="justify-content: center">
         
         <div class="col-lg-4">
           <a class="portfolio-item" data-toggle="modal" href="#portfolioModal1">
@@ -489,17 +487,17 @@ Localization and Autonomous Navigation</a> and the model in <a href="/doc/Utilit
           </a>
         </div>
         
-        <!-- <div class="col-lg-4">
+        <div class="col-lg-4">
           <a class="portfolio-item" data-toggle="modal" href="#portfolioModal4">
             <span class="caption">
               <span class="caption-content">
-                <h4>Collage Generator</h4>
-                <p class="mb-0">Intelligently draws a message with images.</p>
+                <h4>Ray Tracing NURBS Surfaces</h4>
+                <p class="mb-0">A tessellation-free NURBS surfaces ray-tracing renderer.</p>
               </span>
             </span>
-            <img class="img-fluid portfolio-img" src="/img/collage_small.jpg" alt="">
+            <img class="img-fluid portfolio-img" src="/img/project/nurbs.jpg" alt="">
           </a>
-        </div> -->
+        </div>
         
         <!-- <div class="col-lg-4">
           <a class="portfolio-item" data-toggle="modal" href="#portfolioModal5">
@@ -835,6 +833,49 @@ Identification and Initialization Analysis</h5></a> (contributor, &sect;2)
                 <img class="img-fluid d-block mx-auto" src="/img/project/aircraft.jpeg" alt="An image of Aircraft Warfare Game">
                 
                 <div class="lead mb-4">
+                  <b>View this project on GitHub: </b>
+                  <a href="https://github.com/billhu0/AI-Aircraft-Warfare" target="blank">github.com/billhu0/AI-Aircraft-Warfare</a>
+                </div>
+                
+                <a class="btn btn-dark btn-l" data-dismiss="modal" href="#">
+                  <i class="fa fa-times"></i> Close Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. Ray Tracing NURBS Surfaces -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 mx-auto">
+              <div class="modal-body">
+                <h2>Ray Tracing NURBS Surfaces</h2>
+
+                <h4>ShanghaiTech University, Computer Graphics I (CS171)</h4>
+                
+                <p class="lead">
+                  As a non-analytical surface, high-quality-and-efficiency NURBS surface rendering is a very challenging topic in Computer Graphics. Traditional triangulation (tessellation) method requires a huge amount of calculation and memory to generate and store meshes respectively. To solve this problem, in this project, we implemented a path tracer with global illumination to directly render untrimmed NURBS surfaces without tessellating the surface.
+                </p>
+
+                <p class="lead">
+                  Following the methods proposed by Martin et al, we successfully implemented the renderer with more than 3300 C++ baseline. In details, we applied surface refinement for better rendering quality and efficiency, and constructed a BVH to maintain the surface sub-patches and accelerate the ray-patch intersection process.
+                </p>
+                
+                <!-- <img class="img-fluid d-block mx-auto" src="/img/project/aircraft.jpeg" alt="An image of Aircraft Warfare Game"> -->
+                
+                <div class="lead mb-4">
+                  TODO:
                   <b>View this project on GitHub: </b>
                   <a href="https://github.com/billhu0/AI-Aircraft-Warfare" target="blank">github.com/billhu0/AI-Aircraft-Warfare</a>
                 </div>
