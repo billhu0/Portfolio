@@ -2,7 +2,5 @@ User-agent: *
 Allow: /
 Allow: /css/
 Allow: /img/
-Allow: /kr/
 Disallow: /vendors/
-Disallow: /zh/
-Sitemap: https://me.billhu.us/sitemap.xml
+Sitemap: https://about.billhu.us/sitemap.xml
