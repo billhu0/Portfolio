@@ -43,8 +43,8 @@
 
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#timeline">Education</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
           <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#papers">Papers</a></li> -->
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
           <!-- <li class="nav-item"><a class="nav-link" href="/resume" target="blank"><b><i class="fa fa-file-pdf-o"></i> Resume</b></a></li> -->
@@ -138,10 +138,10 @@
           <p class="lead" style="*font-size: 15pt; margin-bottom:0px"><b>Honors and Awards</b></p>
           <ul style="padding-left:30px">
             <li class="lead" style="font-size: 14pt">
-              ShanghaiTech Scholarship (<b>Top 15%</b> of SIST students), Dec. 2022
+              ShanghaiTech <b>Outstanding Student</b> (<b>Top 15%</b> in school), Dec. 2022
             </li>
             <li class="lead" style="font-size: 14pt">
-              ShanghaiTech Scholarship (<b>Top 15%</b> 2022-2023 Academic Year Scholarship for International Exchange), Jun. 2023
+              ShanghaiTech International Exchange Program <b>Scholarship</b>, Jun. 2023
             </li>
           </ul>
           
@@ -171,13 +171,13 @@
           <a class="btn btn-light btn-xl ml-2 mr-2 mb-3 js-scroll-trigger about-btn" href="#timeline">
             Education
           </a>
-
-          <a class="btn btn-light btn-xl ml-2 mr-2 mb-3 js-scroll-trigger about-btn" href="#skills">
-            Skills
-          </a>
           
           <a class="btn btn-light btn-xl ml-2 mr-2 mb-3 js-scroll-trigger about-btn" href="#projects">
             Projects
+          </a>
+
+          <a class="btn btn-light btn-xl ml-2 mr-2 mb-3 js-scroll-trigger about-btn" href="#skills">
+            Skills
           </a>
           
           <!-- <a class="btn btn-light btn-xl ml-2 mr-2 mb-3 js-scroll-trigger about-btn" href="#papers">
@@ -262,6 +262,119 @@
           </ul>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="content-section" id="projects" style="background:#fff9f2;">
+    <div class="container">
+      <div class="content-section-heading text-center">
+        <h2 class="mb-2">Course Projects</h2>
+      </div>
+      
+      <div class="container text-center mb-5">
+        <p class="lead">
+          Here are part of the course projects finished independently or collaboratively.
+        </p>
+      </div>
+      
+      <div class="row no-gutters" style="justify-content: center">
+        
+        <!-- Chrome dino game, linked to #portfolioModal1 -->
+        <div class="col-lg-4">
+          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal1">
+            <span class="caption">
+              <span class="caption-content">
+                <h4>Chrome Dino Game</h4>
+                <p class="mb-0">
+                  Chrome Dino pixel game on Longan Nano (a RISC-V singlechip) development board.
+                </p>
+              </span>
+            </span>
+            <img class="img-fluid portfolio-img" src="/img/project/dino.jpg" alt="">
+          </a>
+        </div>
+        
+        <!-- Probability project, linked to #portfolioModal2 -->
+        <div class="col-lg-4">
+          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal2">
+            <span class="caption">
+              <span class="caption-content">
+                <h4>Multi-armed Bandit Analysis</h4>
+                <p class="mb-0">
+                  A shallow-to-deep analysis of the multi-armed bandit problem.
+                </p>
+              </span>
+            </span>
+            <img class="img-fluid portfolio-img" src="/img/project/bandit.png" alt="">
+          </a>
+        </div>
+        
+        <!-- AI aircraft warfare, linked to #portfolioModal3 -->
+        <div class="col-lg-4">
+          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal3">
+            <span class="caption">
+              <span class="caption-content">
+                <h4>AI Aircraft Warfare</h4>
+                <p class="mb-0">
+                  Playing Aircraft Warfare Game with Reinforcement Learning
+                </p>
+              </span>
+            </span>
+            <img class="img-fluid portfolio-img" src="/img/project/aircraft-warfare.png" alt="">
+          </a>
+        </div>
+        
+        <!-- Ray tracing NURBS surfaces, linked to #portfolioModal4 -->
+        <div class="col-lg-4">
+          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal4">
+            <span class="caption">
+              <span class="caption-content">
+                <h4>Ray Tracing NURBS Surfaces</h4>
+                <p class="mb-0">A tessellation-free NURBS surfaces ray-tracing renderer.</p>
+              </span>
+            </span>
+            <img class="img-fluid portfolio-img" src="/img/project/nurbs.jpg" alt="">
+          </a>
+        </div>
+        
+        <!-- RV32I-RVC bidirectional translator, linked to #portfolioModal5 -->
+        <div class="col-lg-4">
+          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal5">
+            <span class="caption">
+              <span class="caption-content">
+                <h4>RV32I-RVC Translator</h4>
+                <p class="mb-0">
+                  A bi-directional translator between RV32I instructions and RVC (compressed) instructions.
+                </p>
+              </span>
+            </span>
+            <img class="img-fluid portfolio-img" height="250" src="/img/project/riscv.jpg" alt="">
+          </a>
+        </div>
+        
+        <div class="col-lg-4">
+          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal6">
+            <span class="caption">
+              <span class="caption-content">
+                <h4>Machine Learning for Recommender Systems</h4>
+                <p class="mb-0">Re-implementation and analysis of three SOTA algorithms used in recommender systems.</p>
+              </span>
+            </span>
+            <img class="img-fluid portfolio-img" src="/img/project/ncf.jpg" alt="">
+          </a>
+        </div>
+        
+      </div>
+    </div>
+    
+    <!-- <div class="container text-center mt-5">
+      <p class="lead">In my free time, I continue to work on personal projects and have many ideas just waiting to be realized.</p>
+    </div> -->
+    
+    <div class="container text-center mt-5">
+      <h2 class="mb-4">To see more of my projects...</h2>
+      <a href="https://github.com/billhu0" class="btn btn-xl btn-dark" target="blank">Visit My GitHub &nbsp;<i class="fa fa-github"></i></a>
     </div>
   </section>
 
@@ -401,119 +514,6 @@
         </div>
 
       </div>
-    </div>
-  </section>
-
-  <!-- Projects -->
-  <section class="content-section" id="projects">
-    <div class="container">
-      <div class="content-section-heading text-center">
-        <h2 class="mb-2">Projects</h2>
-      </div>
-      
-      <div class="container text-center mb-5">
-        <p class="lead">
-          Here are part of the course projects finished independently or collaboratively.
-        </p>
-      </div>
-      
-      <div class="row no-gutters" style="justify-content: center">
-        
-        <!-- Chrome dino game, linked to #portfolioModal1 -->
-        <div class="col-lg-4">
-          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal1">
-            <span class="caption">
-              <span class="caption-content">
-                <h4>Chrome Dino Game</h4>
-                <p class="mb-0">
-                  Chrome Dino pixel game on Longan Nano (a RISC-V singlechip) development board.
-                </p>
-              </span>
-            </span>
-            <img class="img-fluid portfolio-img" src="/img/project/dino.jpg" alt="">
-          </a>
-        </div>
-        
-        <!-- Probability project, linked to #portfolioModal2 -->
-        <div class="col-lg-4">
-          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal2">
-            <span class="caption">
-              <span class="caption-content">
-                <h4>Multi-armed Bandit Analysis</h4>
-                <p class="mb-0">
-                  A shallow-to-deep analysis of the multi-armed bandit problem.
-                </p>
-              </span>
-            </span>
-            <img class="img-fluid portfolio-img" src="/img/project/bandit.png" alt="">
-          </a>
-        </div>
-        
-        <!-- AI aircraft warfare, linked to #portfolioModal3 -->
-        <div class="col-lg-4">
-          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal3">
-            <span class="caption">
-              <span class="caption-content">
-                <h4>AI Aircraft Warfare</h4>
-                <p class="mb-0">
-                  Playing Aircraft Warfare Game with Reinforcement Learning
-                </p>
-              </span>
-            </span>
-            <img class="img-fluid portfolio-img" src="/img/project/aircraft-warfare.png" alt="">
-          </a>
-        </div>
-        
-        <!-- Ray tracing NURBS surfaces, linked to #portfolioModal4 -->
-        <div class="col-lg-4">
-          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal4">
-            <span class="caption">
-              <span class="caption-content">
-                <h4>Ray Tracing NURBS Surfaces</h4>
-                <p class="mb-0">A tessellation-free NURBS surfaces ray-tracing renderer.</p>
-              </span>
-            </span>
-            <img class="img-fluid portfolio-img" src="/img/project/nurbs.jpg" alt="">
-          </a>
-        </div>
-        
-        <!-- RV32I-RVC bidirectional translator, linked to #portfolioModal5 -->
-        <div class="col-lg-4">
-          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal5">
-            <span class="caption">
-              <span class="caption-content">
-                <h4>RV32I-RVC Translator</h4>
-                <p class="mb-0">
-                  A bi-directional translator between RV32I instructions and RVC (compressed) instructions.
-                </p>
-              </span>
-            </span>
-            <img class="img-fluid portfolio-img" height="250" src="/img/project/riscv.jpg" alt="">
-          </a>
-        </div>
-        
-        <div class="col-lg-4">
-          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal6">
-            <span class="caption">
-              <span class="caption-content">
-                <h4>Machine Learning for Recommender Systems</h4>
-                <p class="mb-0">Re-implementation and analysis of three SOTA algorithms used in recommender systems.</p>
-              </span>
-            </span>
-            <img class="img-fluid portfolio-img" src="/img/project/ncf.jpg" alt="">
-          </a>
-        </div>
-        
-      </div>
-    </div>
-    
-    <!-- <div class="container text-center mt-5">
-      <p class="lead">In my free time, I continue to work on personal projects and have many ideas just waiting to be realized.</p>
-    </div> -->
-    
-    <div class="container text-center mt-5">
-      <h2 class="mb-4">To see more of my projects...</h2>
-      <a href="https://github.com/billhu0" class="btn btn-xl btn-dark" target="blank">Visit My GitHub &nbsp;<i class="fa fa-github"></i></a>
     </div>
   </section>
 
